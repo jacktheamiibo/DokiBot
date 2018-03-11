@@ -9,5 +9,5 @@
   "dependencies": {
     "express": "^4.16.2",
     "discord.js": "^11.3.0"
-  },
+  }
 }
