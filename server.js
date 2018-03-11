@@ -10,6 +10,6 @@ client.on('message', message => {
   }
 });
 
-client.login("NDIyMjA3MzkxMDg2NDExNzk2.DYYbsw.HGYdZFYSMQe27F5c-z13Ng0CQQU");
+client.login(process.env.BOT_TOKEN);
 
 
