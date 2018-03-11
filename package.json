@@ -1,7 +1,7 @@
 {
-  "name": "build-a-discord-bot",
+  "name": "doki-bot",
   "version": "0.0.1",
-  "description": "This an easy-to-understand template for a Discord bot",
+  "description": "fuck",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -10,16 +10,3 @@
     "express": "^4.16.2",
     "discord.js": "^11.3.0"
   },
-  "engines": {
-    "node": "8.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/build-a-discord-bot"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
-}
