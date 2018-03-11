@@ -1,15 +1,16 @@
+ lines (12 sloc)  317 Bytes
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-// 'client.on('message')' commands are triggered when the
-// specified message is read in a text channel that the bot is in.
-
-client.on('message', message => {
-  if (message.content === 'ping') {
-    message.reply('pong');
-  }
+client.on('ready', () => {
+    console.log('I am ready!');
 });
 
+client.on('message', message => {
+    if (message.content === 'ping') {
+    	message.reply('pong');
+  	}
+});
+
+// THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
-
-
